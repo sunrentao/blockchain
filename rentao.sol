@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
 
-contract SHREM is ERC20, Ownable, Pausable{
+contract RENTAO is ERC20, Ownable, Pausable{
 
     mapping (address => bool) private white_lists;
     mapping (address => bool) private pool_address;
